@@ -7,9 +7,9 @@ const Container = () => {
   return (
     <div
       style={{ backgroundImage: `url(${CG})` }}
-      className="bg-zinc-200 bg-cover bg-center min-h-[397px] mt-20 mx-32 rounded-t-2xl pt-4"
+      className="bg-slate-100 bg-cover bg-center min-h-[397px] mt-20 mx-32 rounded-t-2xl pt-4"
     >
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-12">
         <img src={Ball} alt="icon" className="w-12" />
       </div>
       <Pokelist />
